@@ -42,14 +42,14 @@ Aucun ! Ce dossier ne contient que cette consigne. C'est vous qui créez le fich
 
 ## Critères de réussite
 
-- [ ] Le fichier s'appelle `index.html` et se trouve dans le dossier `01-premiere-page`.
-- [ ] La première ligne est `<!DOCTYPE html>`.
-- [ ] La balise `<html>` a l'attribut `lang="fr"`.
-- [ ] Le `<head>` contient `meta charset`, `meta viewport` et un `<title>` personnalisé.
-- [ ] Le `<body>` contient exactement un `<h1>` et au moins un `<p>`.
-- [ ] Chaque balise ouverte est fermée (sauf `<meta>`, qui n'a pas de balise fermante).
-- [ ] Le code est indenté : chaque balise « enfant » est décalée de 2 espaces par rapport à son « parent ».
-- [ ] Les accents s'affichent correctement dans le navigateur.
+- [x ] Le fichier s'appelle `index.html` et se trouve dans le dossier `01-premiere-page`.
+- [x ] La première ligne est `<!DOCTYPE html>`.
+- [x ] La balise `<html>` a l'attribut `lang="fr"`.
+- [x ] Le `<head>` contient `meta charset`, `meta viewport` et un `<title>` personnalisé.
+- [x ] Le `<body>` contient exactement un `<h1>` et au moins un `<p>`.
+- [x ] Chaque balise ouverte est fermée (sauf `<meta>`, qui n'a pas de balise fermante).
+- [x ] Le code est indenté : chaque balise « enfant » est décalée de 2 espaces par rapport à son « parent ».
+- [x ] Les accents s'affichent correctement dans le navigateur.
 
 ## Indices
 
@@ -102,3 +102,14 @@ Toutes les pages de votre projet PlantEvo Viewer commencent par cette structure.
 ---
 
 Exercice suivant : [02 — Titres et paragraphes](../02-titres-paragraphes/README.md)
+
+
+Reponses aux questions:
+
+1. Difference entre `<head>` et `<body>`: <body> constitue le corps du document HTML (ce que l'utilisateur voit comme message) tantdis que, <head> est l'en-tête et fournit les informations d'ordre générales sur le document 
+
+2. L'attribut `lang="fr"` sert à preciser que le langage de codage utilisé est le Français. Cela permet aux lecteurs d'ecran de lire le texte avec la bonne prononciation en français et aide les moteurs de recherche d'optimiser la recherche.
+
+3. La ligne `<!DOCTYPE html>` permet à un navigateur d'utiliser mode standard d'un document htlm.
+
+4. Les commentaires ne sont pas destinés à un utilisateur final. Mais il explique l'intention du developpeur dans son choix de codage afin de faciliter le suivi et la maintenance de son programme.
