@@ -72,23 +72,23 @@ Les numéros correspondent aux commentaires `TODO` dans les fichiers.
 
 | Page de départ | Lien | Destination attendue | Fonctionne ? |
 |---|---|---|---|
-| `index.html` | Nos cultures | `cultures.html` | |
-| `index.html` | Nous contacter | `pages/contact.html` | |
-| `index.html` | Site de la FAO | fao.org (nouvel onglet) | |
-| `cultures.html` | Retour à l'accueil | `index.html` | |
-| `cultures.html` | Article Wikipédia | wikipedia.org | |
-| `pages/contact.html` | Retour à l'accueil | `index.html` | |
-| `pages/contact.html` | Nos cultures | `cultures.html` | |
-| `pages/contact.html` | Adresse e-mail | logiciel de messagerie | |
+| `index.html` | Nos cultures | `cultures.html` |x|
+| `index.html` | Nous contacter | `pages/contact.html` |x|
+| `index.html` | Site de la FAO | fao.org (nouvel onglet) |x|
+| `cultures.html` | Retour à l'accueil | `index.html` |x|
+| `cultures.html` | Article Wikipédia | wikipedia.org |x|
+| `pages/contact.html` | Retour à l'accueil | `index.html` |x|
+| `pages/contact.html` | Nos cultures | `cultures.html` |x|
+| `pages/contact.html` | Adresse e-mail | logiciel de messagerie |x|
 
 ## Critères de réussite
 
-- [ ] Les 8 liens du tableau fonctionnent.
-- [ ] Tous les liens internes utilisent des chemins **relatifs** (aucun `C:\…` ni `file:///…`).
-- [ ] Le lien de retour de `pages/contact.html` utilise `../`.
-- [ ] Le lien vers la FAO s'ouvre dans un nouvel onglet et contient `rel="noopener"`.
-- [ ] Le lien e-mail commence par `mailto:`.
-- [ ] Plus aucun lien « cliquez ici » : chaque texte de lien a du sens tout seul.
+- [x] Les 8 liens du tableau fonctionnent.
+- [x] Tous les liens internes utilisent des chemins **relatifs** (aucun `C:\…` ni `file:///…`).
+- [x] Le lien de retour de `pages/contact.html` utilise `../`.
+- [x] Le lien vers la FAO s'ouvre dans un nouvel onglet et contient `rel="noopener"`.
+- [x] Le lien e-mail commence par `mailto:`.
+- [x] Plus aucun lien « cliquez ici » : chaque texte de lien a du sens tout seul.
 
 ## Indices
 

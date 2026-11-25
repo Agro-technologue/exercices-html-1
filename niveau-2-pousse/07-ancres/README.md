@@ -38,13 +38,13 @@ Les numéros correspondent aux commentaires `TODO` des fichiers.
 
 ## Critères de réussite
 
-- [ ] Les 5 sections ont un `id` unique, en minuscules, sans espace ni accent.
-- [ ] Les 5 liens du sommaire mènent à la bonne section.
-- [ ] Chaque section se termine par un lien « ↑ Retour au sommaire » qui fonctionne.
-- [ ] Le lien « Haut de page » du pied de page remonte tout en haut.
-- [ ] Depuis `recettes.html`, le lien « En savoir plus sur la mangue » ouvre `index.html` sur la section de la mangue.
-- [ ] Je sais expliquer ce que signifie `#mangue` à la fin de l'adresse.
-- [ ] Le validateur W3C n'affiche aucune erreur (il signale notamment les `id` en double).
+- [x] Les 5 sections ont un `id` unique, en minuscules, sans espace ni accent.
+- [x] Les 5 liens du sommaire mènent à la bonne section.
+- [x] Chaque section se termine par un lien « ↑ Retour au sommaire » qui fonctionne.
+- [x] Le lien « Haut de page » du pied de page remonte tout en haut.
+- [x] Depuis `recettes.html`, le lien « En savoir plus sur la mangue » ouvre `index.html` sur la section de la mangue.
+- [x] Je sais expliquer ce que signifie `#mangue` à la fin de l'adresse.
+- [x] Le validateur W3C n'affiche aucune erreur (il signale notamment les `id` en double).
 
 ## Indices
 
