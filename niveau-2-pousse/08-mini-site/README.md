@@ -68,23 +68,23 @@ Ensuite, sur l'ordinateur :
 
    | Je suis sur… | Accueil | Nos cultures | Nos animaux | Infos pratiques | ← Retour | Logo affiché |
    |---|---|---|---|---|---|---|
-   | `index.html` | | | | | — | |
-   | `pages/cultures.html` | | | | | | |
-   | `pages/animaux.html` | | | | | | |
-   | `pages/infos.html` | | | | | | |
+   | `index.html` |x|x|x|x| — |x|
+   | `pages/cultures.html` |x|x|x|x|x|x|
+   | `pages/animaux.html` |x|x|x|x|x|x|
+   | `pages/infos.html` |x|x|x|x|x|x|
 
 9. Passez **chacune** des 4 pages au validateur W3C.
 
 ## Critères de réussite
 
-- [ ] Mon plan du site et ma maquette papier sont faits.
-- [ ] L'arborescence est exactement celle demandée (noms en minuscules, sans espace ni accent).
-- [ ] Les 4 pages ont le même `<header>`, le même `<nav>` et le même `<footer>`.
-- [ ] Ma grille de test est entièrement verte : tous les liens et toutes les images fonctionnent depuis toutes les pages.
-- [ ] Dans chaque menu, un seul lien porte `aria-current="page"` : celui de la page en cours.
-- [ ] Chaque page a son propre `<title>` et son propre `<h1>`.
-- [ ] Chaque image a un `alt` pertinent et des dimensions (`width`, `height`).
-- [ ] Les 4 pages passent le validateur W3C sans erreur.
+- [x] Mon plan du site et ma maquette papier sont faits.
+- [x] L'arborescence est exactement celle demandée (noms en minuscules, sans espace ni accent).
+- [x] Les 4 pages ont le même `<header>`, le même `<nav>` et le même `<footer>`.
+- [x] Ma grille de test est entièrement verte : tous les liens et toutes les images fonctionnent depuis toutes les pages.
+- [x] Dans chaque menu, un seul lien porte `aria-current="page"` : celui de la page en cours.
+- [x] Chaque page a son propre `<title>` et son propre `<h1>`.
+- [x] Chaque image a un `alt` pertinent et des dimensions (`width`, `height`).
+- [x] Les 4 pages passent le validateur W3C sans erreur.
 
 ## Indices
 

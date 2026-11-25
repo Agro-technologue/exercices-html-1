@@ -39,16 +39,16 @@
 
 | N° | Ligne | Problème trouvé | Ma correction | Trouvé grâce à… (validateur / test) |
 |---|---|---|---|---|
-| 1 | | | | |
-| 2 | | | | |
-| 3 | | | | |
-| 4 | | | | |
-| 5 | | | | |
-| 6 | | | | |
-| 7 | | | | |
-| 8 | | | | |
-| 9 | | | | |
-| 10 | | | | |
+| 1 | ligne 01|<!DOCTYPE html> absent|Ajout de <!DOCTYPE html>| validateur |
+| 2 | ligne 06| <title> absent| Ajout de <title>| validateur|
+| 3 | ligne 10| <h1< fermé en <h2>| <h2> remplacé par <h1>| validateur|
+| 4 | ligne 14| herf au lieu de href| herf remplacé par fref| validateur|
+| 5 | ligne 23| <strong> non fermé| <strong> fermé| validateur|
+| 6 |ligne 24| il n'y a pas de alt dans <img>| Ajout de alt| validateur|
+| 7 | ligne 30| <ul> ne prend pas en compte toute la liste| <ul> bien fermé englobant toute la liste| validateur|
+| 8 | ligne 33| id=cultures repété 2 fois| "cultures" remplacé par recettes| validateur|
+| 9 | ligne 35|l'image de la session 2 ne s'affiche pas| Ajout de la lettre "s" sur le dossier image| test|
+| 10 | ligne 41| impossible de passer à la page contact| suppression de la lettre "s" à fichier contacts.| test|
 
 ## Critères de réussite
 
